@@ -2,7 +2,7 @@
     "manufacturer": "takashicompany",
     "keyboard_name": "KLEC-02",
     "maintainer": "takashicompany",
-    "development_board": "promicro",
+    "development_board": "promicro_rp2040",
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -11,13 +11,13 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["D4", "C6", "D7", "E6", "B4"],
-        "rows": ["F4", "F5", "F6", "F7"]
+        "cols": ["GP4","GP5","GP6","GP7","GP8"],
+        "rows": ["GP29","GP28","GP27","GP26"]
     },
     "split": {
         "enabled": true,
         "serial": {
-            "pin": "D2"
+            "pin": "GP1"
         }
     },
     "usb": {
