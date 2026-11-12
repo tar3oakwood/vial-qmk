@@ -6,3 +6,9 @@
 // 誤設定した際のセーフモード起動用（左上のキーなどを指定）
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
 #define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
+
+#undef DYNAMIC_KEYMAP_LAYER_COUNT
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
+
+#undef VIAL_KEYMAP_LAYERS
+#define VIAL_KEYMAP_LAYERS 10

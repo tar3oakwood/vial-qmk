@@ -2,8 +2,15 @@ MCU = RP2040
 BOOTLOADER = rp2040
 
 VIAL_ENABLE = yes
-LTO_ENABLE = yes
+LTO_ENABLE = no
 
 # 欲しい機能だけ「yes」にする（これだけでGUI対応！）
 TAP_DANCE_ENABLE = yes
 COMBO_ENABLE = yes
+
+KEY_OVERRIDE_ENABLE = no
+
+SERIAL_DRIVER = vendor
+
+DYNAMIC_KEYMAP_ENABLE = yes
+VIA_ENABLE = yes
